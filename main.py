@@ -27,7 +27,7 @@ while True:
     
     cv2.imshow("Video", frame)
 
-    # Tekan 'q' untuk keluar
+    # Hold 'q' to exit
     key = cv2.waitKey(1)
     if key == ord("q"):
         break
